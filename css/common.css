@@ -8,7 +8,7 @@ header {
 
 .header_wrap {
     margin: 0 auto;
-    width: 1200px;
+    width: 1100px;;
     height: 90px;
     display: flex;
     justify-content: space-between;
@@ -21,6 +21,10 @@ header {
 .gnb {
     width: 100%;
     margin: 0 100px;
+
+
+
+    
 }
 
 .gnb>ul {
@@ -59,4 +63,34 @@ header {
 .login>ul {
     display: flex;
     justify-content: space-between;
+}
+
+
+footer {
+    border-top: 1px solid #ccc;
+}
+.footer_top {
+    width: 1100px;;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_bottom {
+    width: 1100px;;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.address {
+    font-size: 14px;
+}
+.mark {
+    display: flex;
+    margin-right: 100px;
+}
+.mark > a> img {
+    width: 100px;
+    height: 70px;
+    
 }
