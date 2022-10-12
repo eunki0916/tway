@@ -15,7 +15,7 @@
 /* swiper */
 .swiper {
     position: absolute;
-    bottom: 60%;
+    bottom: 50%;
     width: 100%;
     height: 280px;
 }
@@ -163,7 +163,7 @@
 
 .a_service li a {
     display: block;
-    width: 180px;
+    width: calc(1100px / 6 - 20px);
     height: 200px;
     background: #eee;
     color: #000;
@@ -383,14 +383,74 @@
     --swiper-navigation-size: 30px;
 }
 .event_wrap>.swiper-button-next, .swiper-rtl .swiper-button-prev {
-    right: -970px;
+    right: -1000px;
     width: 50px;
     height: 50px;
     border: 1px solid black;
 }
 .event_wrap>.swiper-button-prev, .swiper-rtl .swiper-button-next {
-    left: -970px;
+    left: -1000px;
     width: 50px;
     height: 50px;
     border: 1px solid black;
+}
+
+.notice {
+    width: 1100px;
+}
+
+.notice >a > img {
+    width: 1100px;
+    margin-top: 30px;
+}
+.notice_wrap {
+    display: flex;
+}
+.notice_wrap > div {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    padding: 30px 0;
+}
+.notice_text {
+    width: 65%;
+}
+.notice_text h2 {
+    margin-bottom: 20px;
+}
+.notice_text ul li{
+    padding: 10px 0;
+}
+.notice_text ul li:nth-child(1) {
+    border-top: 1px solid;
+}
+.notice_text ul li:not(a){
+    border-bottom: 1px solid #ccc;
+}
+.notice_text ul li a {
+    width: 100%;
+    display: block;
+    position: relative;
+    font-weight: 600;
+}
+.notice_text ul li span:last-child {
+    position: absolute;
+    right: 0;
+    font-size: 14px;
+    font-weight:300;
+    line-height: 1.8;
+}
+
+.sns {
+    width: 30%;
+    margin-left: 5%;
+}
+.sns h2 {
+    border-bottom: 1px solid;
+    padding-bottom: 20px;
+}
+.sns ul {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
 }
