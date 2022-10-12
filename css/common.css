@@ -36,15 +36,17 @@ header {
 }
 
 .logo {
-    line-height: calc(90px - 50%);
+    display: flex;
+    align-items: center;
 }
 
 .gnb_wrap {
     width: 100%;
-    margin: 0 100px;
+    margin: 0 20px;
 }
 
 .gnb {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -52,6 +54,7 @@ header {
 }
 
 .gnb>li {
+    width: 100%;
     color: inherit;
 }
 
@@ -60,10 +63,19 @@ header {
     font-size: 20px;
     font-weight: bold;
     line-height: 90px;
+    position: absolute;
+    top: 0;
+    padding: 0 20px; 
 }
-
 .sub {
     display: none;
+    width: 100%;
+    background: #fff;
+    border: 1px solid red;
+}
+.sbu::before {
+    content: "";
+    
 }
 
 .sub_menu {
@@ -72,7 +84,7 @@ header {
 }
 
 .lang {
-    width: 150px;
+    width: 120px;
     padding-top: 10px;
     color: #fff;
 }
