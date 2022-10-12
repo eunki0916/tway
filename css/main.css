@@ -383,13 +383,13 @@
     --swiper-navigation-size: 30px;
 }
 .event_wrap>.swiper-button-next, .swiper-rtl .swiper-button-prev {
-    right: -1000px;
+    right: -970px;
     width: 50px;
     height: 50px;
     border: 1px solid black;
 }
 .event_wrap>.swiper-button-prev, .swiper-rtl .swiper-button-next {
-    left: -1000px;
+    left: -970px;
     width: 50px;
     height: 50px;
     border: 1px solid black;
