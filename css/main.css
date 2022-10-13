@@ -54,13 +54,17 @@
     z-index: 100;
 }
 
+
+
+
 .swiper-pagination {
     color: #fff;
 }
 
 .reserve {
     position: absolute;
-    width: 1100px;;
+    width: 1100px;
+    ;
     height: 400px;
     border-radius: 20px;
     bottom: 20px;
@@ -360,35 +364,45 @@
     margin-top: 30px;
     text-align: center;
     height: 400px;
-    width: 1100px;;
+    width: 1100px;
+    ;
     position: relative;
 }
 
 .event_wrap>.swiper {
     top: 15%;
 }
+
 .event_img {
     justify-content: space-between;
 }
-.event_img > a {
+
+.event_img>a {
     width: 540px;
 }
-.event_img > a > img {
+
+.event_img>a>img {
     width: 540px;
     height: 300px;
 }
-.event_wrap>.swiper-button-next, .event_wrap>.swiper-button-prev {
+
+.event_wrap>.swiper-button-next,
+.event_wrap>.swiper-button-prev {
     --swiper-theme-color: #000;
     top: 50%;
     --swiper-navigation-size: 30px;
 }
-.event_wrap>.swiper-button-next, .swiper-rtl .swiper-button-prev {
+
+.event_wrap>.swiper-button-next,
+.swiper-rtl .swiper-button-prev {
     right: -1000px;
     width: 50px;
     height: 50px;
     border: 1px solid black;
 }
-.event_wrap>.swiper-button-prev, .swiper-rtl .swiper-button-next {
+
+.event_wrap>.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
     left: -1000px;
     width: 50px;
     height: 50px;
@@ -399,45 +413,54 @@
     width: 1100px;
 }
 
-.notice >a > img {
+.notice>a>img {
     width: 1100px;
     margin-top: 30px;
 }
+
 .notice_wrap {
     display: flex;
 }
-.notice_wrap > div {
+
+.notice_wrap>div {
     display: flex;
     flex-direction: column;
     height: 300px;
     padding: 30px 0;
 }
+
 .notice_text {
     width: 65%;
 }
+
 .notice_text h2 {
     margin-bottom: 20px;
 }
-.notice_text ul li{
+
+.notice_text ul li {
     padding: 10px 0;
 }
+
 .notice_text ul li:nth-child(1) {
     border-top: 1px solid;
 }
-.notice_text ul li:not(a){
+
+.notice_text ul li:not(a) {
     border-bottom: 1px solid #ccc;
 }
+
 .notice_text ul li a {
     width: 100%;
     display: block;
     position: relative;
     font-weight: 600;
 }
+
 .notice_text ul li span:last-child {
     position: absolute;
     right: 0;
     font-size: 14px;
-    font-weight:300;
+    font-weight: 300;
     line-height: 1.8;
 }
 
@@ -445,10 +468,12 @@
     width: 30%;
     margin-left: 5%;
 }
+
 .sns h2 {
     border-bottom: 1px solid;
     padding-bottom: 20px;
 }
+
 .sns ul {
     margin-top: 50px;
     display: flex;

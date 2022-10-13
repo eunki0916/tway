@@ -2,9 +2,10 @@
 
 header {
     position: fixed;
-    z-index: 30000;
     width: 100%;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    z-index: 30000;
+    transition: all 0.5s;
 }
 
 .header_bg {
@@ -42,41 +43,132 @@ header {
 
 .gnb_wrap {
     width: 100%;
-    margin: 0 20px;
 }
 
 .gnb {
-    width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    margin: 0 50px;
     color: #fff;
 }
 
+
 .gnb>li {
-    width: 100%;
     color: inherit;
+    transition: all 1s;
+}
+
+
+.gnb>li:hover::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 92px;
+    left: 0;
+    height: 200px;
+    width: 100%;
+    background-color: white;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.gnb>li:hover:nth-child(3)::after {
+    height: 600px;
+}
+
+.gnb>li:hover:nth-child(4)::after {
+    height: 400px;
 }
 
 .gnb>li>a {
     color: inherit;
     font-size: 20px;
     font-weight: bold;
-    line-height: 90px;
+    line-height: 100px;
+}
+
+.gnb>li:hover>div {
+    display: flex;
+}
+
+
+.gnb>li>div {
+    display: none;
+    position: absolute;
+    top: 130px;
+    width: 1100px;
+    left: 510px;
+    z-index: 2;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.gnb>li>div ul li {
+    margin-bottom: 10px;
+}
+
+.gnb>li>div>ul {
+    width: calc(100% / 3);
+    margin-bottom: 20px;
+}
+
+.gnb>li>div>ul {
+    position: relative;
+}
+
+.gnb>li>div::before {
+    content: "";
+    display: block;
     position: absolute;
     top: 0;
-    padding: 0 20px; 
+    left: 280px;
+    border-left: 1px solid #ccc;
+    height: 30px;
 }
-.sub {
-    display: none;
-    width: 100%;
-    background: #fff;
-    border: 1px solid red;
+
+.gnb>li:nth-child(3)>div::before {
+    height: 530px;
 }
-.sbu::before {
+
+.gnb>li:nth-child(4)>div::before {
+    height: 250px;
+}
+
+.gnb>li:nth-child(5)>div::before,
+.gnb>li:nth-child(6)>div::before {
+    height: 75px;
+}
+
+.gnb>li>div::after {
     content: "";
-    
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 440px;
+    border-right: 1px solid #ccc;
+    height: 30px;
 }
+
+.gnb>li:nth-child(3)>div::after {
+    height: 530px;
+}
+
+.gnb>li:nth-child(4)>div::after {
+    height: 250px;
+}
+
+.gnb>li:nth-child(5)>div::after,
+.gnb>li:nth-child(6)>div::after {
+    height: 75px;
+}
+
+
+
+.gnb>li>div ul li:nth-child(1) a {
+    font-size: 20px;
+    font-weight: 600;
+}
+
 
 .sub_menu {
     display: flex;
