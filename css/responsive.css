@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media (max-width:1200px) {
+@media (max-width:1168px) {
     .gnb>li>div {
         left: 50px;
     }
