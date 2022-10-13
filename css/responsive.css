@@ -1,6 +1,10 @@
 @charset "UTF-8";
 
 @media (max-width:1200px) {
+    .gnb>li>div {
+        left: 50px;
+    }
+
     .swiper {
         height: 50%;
     }
@@ -39,4 +43,5 @@
     .reserve_bottom_right {
         height: 300px;
     }
+
 }
