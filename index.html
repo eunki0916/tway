@@ -24,7 +24,7 @@
         <img src="img/bg_header.png" alt="헤더" class="header_bg">
         <div class="header_wrap">
             <div class="logo">
-                <h1><a href="#">
+                <h1><a href="index.html">
                         <img src="img/top_logo1.png" alt="티웨이" class="logo_img">
                     </a></h1>
             </div>
@@ -156,25 +156,25 @@
                         </div>
                     </li>
                     <li>
-                        <a href="#">제휴</a>
+                        <a href="sub.html">제휴</a>
                         <div class="sub_coo">
                             <ul>
-                                <li><a href="#">호텔</a></li>
+                                <li><a href="sub.html">호텔</a></li>
                             </ul>
                             <ul>
-                                <li><a href="#">렌터카</a></li>
+                                <li><a href="sub2.html">렌터카</a></li>
                             </ul>
                             <ul>
-                                <li><a href="#">금융 및 여행자보험</a></li>
+                                <li><a href="sub3.html">금융 및 여행자보험</a></li>
                             </ul>
                             <ul>
-                                <li><a href="#">쇼핑 및 편의</a></li>
+                                <li><a href="sub4.html">쇼핑 및 편의</a></li>
                             </ul>
                             <ul>
-                                <li><a href="#">액티비티</a></li>
+                                <li><a href="sub5.html">액티비티</a></li>
                             </ul>
                             <ul>
-                                <li><a href="#">OTT & WIFI</a></li>
+                                <li><a href="sub6.html">OTT & WIFI</a></li>
                             </ul>
                         </div>
                     </li>
@@ -199,9 +199,9 @@
     </header>
     <div class="dark"></div>
     <div class="all_menu_wrap">
-        <h2>전체메뉴</h2>
-        <div class="all_menu">
-            <div>
+        <h2 class="pc_all_menu">전체메뉴</h2>
+        <div class="all_menu m_all_menu_top">
+            <div class="pc_all_menu">
                 <ul class="all_menu_top">
                     <li><a href="#all_menu_reserve">항공권 예매</a></li>
                     <li><a href="#all_menu_my">나의 예약</a></li>
@@ -211,10 +211,28 @@
                     <li><a href="#all_menu_coo">제휴</a></li>
                 </ul>
             </div>
+            <div class="m_all_top">
+                <div class="m_all_menu">
+                    <div class="m_menu_top">
+                        <a href="#">한국어 - 한국어</a>
+                    </div>
+                    <div class="m_menu_mid">
+                        <p>로그인 하시고 <br> 다양한 서비스를 이용하세요.</p>
+                        <a href="#">로그인</a>
+                    </div>
+                    <div class="m_menu_bot">
+                        <form action="">
+                            <input type="text" placeholder="검색어를 입력하세요">
+                            <button type="reset">X</button>
+                            <a href="#"><img src="img/icon/ico_top_search.png" alt=""></a>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="all_menu">
-            <div>
-                <h3 id="all_menu_reserve">항공권 예매</h4>
+            <div class="reserve_wrap">
+                <h3 id="all_menu_reserve" class="menu_h3">항공권 예매</h4>
                     <ul class="all_menu_reserve">
                         <li><a href="#">항공권 예매</a></li>
                         <li><a href="#">이벤트/프로모션</a></li>
@@ -238,9 +256,9 @@
             <div>
                 <h3 id="all_menu_service">서비스 안내</h4>
                     <ul class="all_menu_service">
-                        <li>
-                            <a href="#">여행 준비</a>
-                            <ul>
+                        <li class="menu_li">
+                            <a href="#" class="menu_click">여행 준비</a>
+                            <ul class="service_trip">
                                 <li><a href="#">항공권 예매 안내</a></li>
                                 <li><a href="#">단체 항공권 예매 안내</a></li>
                                 <li><a href="#">가족 동반 여행</a></li>
@@ -250,10 +268,11 @@
                                 <li><a href="#">티웨이페이</a></li>
                                 <li><a href="#">항공기 정보</a></li>
                             </ul>
+                            <img src="img/icon/ico_select.png" alt="" class="service_trip_arr menu_arr">
                         </li>
-                        <li>
-                            <a href="#">항공편 및 공항 정보</a>
-                            <ul>
+                        <li class="menu_li">
+                            <a href="#" class="menu_click">항공편 및 공항 정보</a>
+                            <ul class="service_air">
                                 <li><a href="#">운항스케줄 조회</a></li>
                                 <li><a href="#">출/도착 조회</a></li>
                                 <li><a href="#">셀프 체크인 안내</a></li>
@@ -263,10 +282,11 @@
                                 <li><a href="#">t’way 라운지</a></li>
                                 <li><a href="#">코로나 19 종합 안내</a></li>
                             </ul>
+                            <img src="img/icon/ico_select.png" alt="" class="service_air_arr menu_arr">
                         </li>
-                        <li>
-                            <a href="#">부가서비스</a>
-                            <ul>
+                        <li class="menu_li">
+                            <a href="#" class="menu_click">부가서비스</a>
+                            <ul class="service_plus">
                                 <li><a href="#">부가서비스 번들 구매</a></li>
                                 <li><a href="#">사전좌석 구매</a></li>
                                 <li><a href="#">수하물 추가 구매</a></li>
@@ -277,28 +297,31 @@
                                 <li><a href="#">t’care 서비스</a></li>
                                 <li><a href="#">원클릭 여행자보험</a></li>
                             </ul>
+                            <img src="img/icon/ico_select.png" alt="" class="service_plus_arr menu_arr">
                         </li>
-                        <li>
-                            <a href="#">수하물 안내</a>
-                            <ul>
+                        <li class="menu_li">
+                            <a href="#" class="menu_click">수하물 안내</a>
+                            <ul class="service_jim">
                                 <li><a href="#">무료 수하물</a></li>
                                 <li><a href="#">초과 수하물</a></li>
                                 <li><a href="#">특수 수하물</a></li>
                                 <li><a href="#">운송 제한 물품</a></li>
                                 <li><a href="#">수하물 배상</a></li>
                             </ul>
-                        </li>              
+                            <img src="img/icon/ico_select.png" alt="" class="service_jim_arr menu_arr">
+                        </li>
                     </ul>
                     <ul class="all_menu_service">
-                        <li>
-                            <a href="#">기내 서비스</a>
-                            <ul>
+                        <li class="menu_li">
+                            <a href="#" class="menu_click">기내 서비스</a>
+                            <ul class="service_in">
                                 <li><a href="#">기내 제공 서비스</a></li>
                                 <li><a href="#">t’shop</a></li>
                                 <li><a href="#">기내 면세품 예약 및 구매 안내</a></li>
                                 <li><a href="#">channel t’</a></li>
                                 <li><a href="#">기내 이벤트</a></li>
                             </ul>
+                            <img src="img/icon/ico_select.png" alt="" class="service_in_arr menu_arr">
                         </li>
                     </ul>
             </div>
@@ -307,31 +330,34 @@
             <div>
                 <h3 id="all_menu_store">온라인면세점</h4>
                     <ul class="all_menu_store">
-                        <li>
-                            <a href="#">카테고리</a>
-                            <ul>
+                        <li class="menu_li">
+                            <a href="#" class="menu_click">카테고리</a>
+                            <ul class="store_category">
                                 <li><a href="#">주류</a></li>
                                 <li><a href="#">화장품 & 향수</a></li>
                                 <li><a href="#">쥬얼리 & 선물용품</a></li>
                                 <li><a href="#">건강제품류</a></li>
                             </ul>
+                            <img src="img/icon/ico_select.png" alt="" class="store_category_arr menu_arr">
                         </li>
-                        <li>
-                            <a href="#">나의 주문</a>
-                            <ul>
+                        <li class="menu_li">
+                            <a href="#" class="menu_click">나의 주문</a>
+                            <ul class="store_order">
                                 <li><a href="#">주문 조회</a></li>
                             </ul>
+                            <img src="img/icon/ico_select.png" alt="" class="store_order_arr menu_arr">
                         </li>
                         <li><a href="#">이벤트</a></li>
                         <li><a href="#">공지사항</a></li>
-                        
+
                     </ul>
                     <ul class="all_menu_store">
-                        <li>
-                            <a href="#">이용안내</a>
-                            <ul>
+                        <li class="menu_li">
+                            <a href="#" class="menu_click">이용안내</a>
+                            <ul class="store_faq">
                                 <li><a href="#">FAQ</a></li>
                             </ul>
+                            <img src="img/icon/ico_select.png" alt="" class="store_faq_arr menu_arr">
                         </li>
                     </ul>
             </div>
@@ -341,12 +367,13 @@
                 <h3 id="all_menu_event">이벤트</h4>
                     <ul class="all_menu_event">
                         <li><a href="#">이벤트/프로모션</a></li>
-                        <li>
-                            <a href="#">쿠폰</a>
-                            <ul>
+                        <li class="menu_li">
+                            <a href="#" class="menu_click">쿠폰</a>
+                            <ul class="event_coupon">
                                 <li><a href="#">쿠폰 안내</a></li>
                                 <li><a href="#">쿠폰북</a></li>
                             </ul>
+                            <img src="img/icon/ico_select.png" alt="" class="event_coupon_arr menu_arr">
                         </li>
                         <li></li>
                         <li></li>
@@ -357,67 +384,261 @@
             <div>
                 <h3 id="all_menu_coo">제휴</h4>
                     <ul class="all_menu_my">
-                        <li><a href="#">호텔</a></li>
-                        <li><a href="#">렌터카</a></li>
-                        <li><a href="#">금융 및 여행자보험</a></li>
-                        <li><a href="#">쇼핑 및 편의</a></li>
+                        <li><a href="sub.html">호텔</a></li>
+                        <li><a href="sub2.html">렌터카</a></li>
+                        <li><a href="sub3.html">금융 및 여행자보험</a></li>
+                        <li><a href="sub4.html">쇼핑 및 편의</a></li>
                     </ul>
                     <ul class="all_menu_my">
-                        <li><a href="#">액티비티</a></li>
-                        <li><a href="#">OTT & WIFI</a></li>
+                        <li><a href="sub5.html">액티비티</a></li>
+                        <li><a href="sub6.html">OTT & WIFI</a></li>
+                        <li></li>
                         <li></li>
                         <li></li>
                     </ul>
             </div>
         </div>
     </div>
-    <span class="menu_close"><img src="img/icon/btn_menu_close.png" alt="닫기"></span>
+    <span class="menu_close"><img src="img/icon/btn_layer_close.png" alt="닫기"></span>
     <main>
         <section class="main_visual">
-            <video muted autoplay playsinline>
-                <source src="img/main.mp4" type="video/mp4">
-            </video>
-            <div class="swiper mySwiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide"><a href="#"><img src="img/main_visual/visual1.png" alt=""></a></div>
-                    <div class="swiper-slide"><a href="#"><img src="img/main_visual/visual2.png" alt=""></a></div>
-                    <div class="swiper-slide"><a href="#"><img src="img/main_visual/visual3.png" alt=""></a></div>
-                    <div class="swiper-slide"><a href="#"><img src="img/main_visual/visual4.png" alt=""></a></div>
-                    <div class="swiper-slide"><a href="#"><img src="img/main_visual/visual5.png" alt=""></a></div>
-                    <div class="swiper-slide"><a href="#"><img src="img/main_visual/visual6.png" alt=""></a></div>
-                    <div class="swiper-slide"><a href="#"><img src="img/main_visual/visual7.png" alt=""></a></div>
-                    <div class="swiper-slide"><a href="#"><img src="img/main_visual/visual8.png" alt=""></a></div>
-                </div>
-                <div class="swiper-pagination"></div>
-            </div>
-
-            </div>
-            <div class="reserve">
-                <div class="reserve_top">
-                    <div class="reserve_logo"><img src="img/top_logo1.png" alt=""></div>
-                    <div class="reserve_top2">BOARDING PASS 탑승권</div>
-                    <div class="reserve_top3">BOARDING PASS 탑승권</div>
-                </div>
-                <div class="reserve_bottom">
-                    <div class="reserve_bottom_left">
-
+            <div class="pc_visual">
+                <video muted autoplay playsinline>
+                    <source src="img/main.mp4" type="video/mp4">
+                </video>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><a href="#"><img src="img/main_visual/visual1.png" alt=""></a></div>
+                        <div class="swiper-slide"><a href="#"><img src="img/main_visual/visual2.png" alt=""></a></div>
+                        <div class="swiper-slide"><a href="#"><img src="img/main_visual/visual3.png" alt=""></a></div>
+                        <div class="swiper-slide"><a href="#"><img src="img/main_visual/visual4.png" alt=""></a></div>
+                        <div class="swiper-slide"><a href="#"><img src="img/main_visual/visual5.png" alt=""></a></div>
+                        <div class="swiper-slide"><a href="#"><img src="img/main_visual/visual6.png" alt=""></a></div>
+                        <div class="swiper-slide"><a href="#"><img src="img/main_visual/visual7.png" alt=""></a></div>
+                        <div class="swiper-slide"><a href="#"><img src="img/main_visual/visual8.png" alt=""></a></div>
                     </div>
-                    <div class="reserve_bottom_right">
-                        <div class="reserve_a">
-                            <a>왕복</a>
-                            <a>편도</a>
-                            <a>다구간</a>
+                    <div class="swiper-pagination"></div>
+                </div>
+
+
+                <div class="reserve">
+                    <div class="reserve_top">
+                        <div class="reserve_logo"><img src="img/top_logo1.png" alt=""></div>
+                        <div class="reserve_top2">BOARDING PASS 탑승권</div>
+                        <div class="reserve_top3">BOARDING PASS 탑승권</div>
+                    </div>
+                    <div class="reserve_bottom">
+                        <div class="reserve_bottom_left">
+                            <!-- <div class="left_top">
+                                <p>NAME</p>
+                                <p>FLIGHT</p>
+                                <p>DEP TIME</p>
+                                <div class="">
+                                    <p>BOARDING TIME</p>
+                                    <p>GATE</p>
+                                    <p>SEAT</p>
+                                </div>
+                                <p>EKTK :</p>
+                            </div> -->
+                            <div class="left_bottom">
+                                <span class="logo">티웨이항공</span>
+                                <p>
+                                    Boarding gate closes <span>15 minutes</span> prior to departure time.<br>
+                                    항공기 정시출발을 위하여 출발 시간 <span>15분 전</span> 탑승이 종료됩니다.<br>
+                                </p>
+                            </div>
                         </div>
+                        <div class="reserve_bottom_right">
+                            <div class="reserve_a">
+                                <a href="#" class="reserve_a_click">왕복</a>
+                                <a href="#">편도</a>
+                                <a href="#">다구간</a>
+                            </div>
+                            <div class="reserve_p">
+                                <a href="#">출발지</a>
+                                <a href="#">도착지</a>
+                                <a href="#">출발일</a>
+                                <a href="#">도착일</a>
+                                <a href="#">탑승객 / 좌석등급</a>
+                            </div>
+                            <div class="reserve_button">
+                                <button>조회</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="m_visual">
+                <div class="m_visual_bg">
+                    <img src="img/m_bg.jpg" alt="모바일화면">
+                </div>
+                <div class="m_reserve_wrap">
+                    <div class="reserve_a">
+                        <a href="#">왕복</a>
+                        <a href="#">편도</a>
+                        <a href="#">다구간</a>
+                    </div>
+                    <div>
                         <div class="reserve_p">
-                            <a>출발지</a>
-                            <a>도착지</a>
-                            <a>출발일</a>
-                            <a>도착일</a>
-                            <a>탑승객 / 좌석등급</a>
+                            <div class="m_reserve_p_top">
+                                <a href="#">출발지
+                                    <p>도시/공항</p>
+                                </a>
+                                <a href="#"><img src="img/icon/btn_change.png" alt=""></a>
+                                <a href="#">도착지
+                                    <p>도시/공항</p>
+                                </a>
+                            </div>
+                            <div class="m_reserve_p_mid">
+                                <a href="#">YYYY-MM-DD</a>
+                                <span>-</span>
+                                <a href="#">YYYY-MM-DD</a>
+                            </div>
+                            <div class="m_reserve_p_bot">
+                                <a href="#">탑승객 / 좌석등급</a>
+                            </div>
                         </div>
-                        <div class="reserve_button">
-                            <button>조회</button>
+                    </div>
+                    <div class="reserve_button">
+                        <button>조회</button>
+                    </div>
+                </div>
+                <div class="m_trip">
+                    <h2>최저가 여행</h2>
+                    <div>
+                        <div class="my_swiper">
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <a href="#">
+                                            <div class="trip_img">
+                                                <img src="img/trip/1_Singapore.png" alt="싱가포르">
+                                                <div class="m_trip_t">
+                                                    <p>인천</p>
+                                                    <p>싱가포르</p>
+                                                </div>
+                                                <div class="m_trip_m">
+                                                    <span>편도총액</span>
+                                                </div>
+                                                <div class="m_trip_b">
+                                                    <span>KRW</span>
+                                                    <span>163,300~</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#">
+                                            <div class="trip_img">
+                                                <img src="img/trip/2_Narita.jpg" alt="나리타">
+                                                <div class="m_trip_t">
+                                                    <p>인천</p>
+                                                    <p>나리타</p>
+                                                </div>
+                                                <div class="m_trip_m">
+                                                    <span>편도총액</span>
+                                                </div>
+                                                <div class="m_trip_b">
+                                                    <span>KRW</span>
+                                                    <span>197,300~</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#">
+                                            <div class="trip_img">
+                                                <img src="img/trip/3_Danang.jpg" alt="다낭">
+                                                <div class="m_trip_t">
+                                                    <p>인천</p>
+                                                    <p>다낭</p>
+                                                </div>
+                                                <div class="m_trip_m">
+                                                    <span>편도총액</span>
+                                                </div>
+                                                <div class="m_trip_b">
+                                                    <span>KRW</span>
+                                                    <span>168,300~</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#">
+                                            <div class="trip_img">
+                                                <img src="img/trip/4_Bangkok.jpg" alt="방콕">
+                                                <div class="m_trip_t">
+                                                    <p>인천</p>
+                                                    <p>방콕</p>
+                                                </div>
+                                                <div class="m_trip_m">
+                                                    <span>편도총액</span>
+                                                </div>
+                                                <div class="m_trip_b">
+                                                    <span>KRW</span>
+                                                    <span>160,170~</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#">
+                                            <div class="trip_img">
+                                                <img src="img/trip/5_Guam.jpg" alt="괌">
+                                                <div class="m_trip_t">
+                                                    <p>인천</p>
+                                                    <p>&nbsp;괌</p>
+                                                </div>
+                                                <div class="m_trip_m">
+                                                    <span>편도총액</span>
+                                                </div>
+                                                <div class="m_trip_b">
+                                                    <span>KRW</span>
+                                                    <span>160,160~</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#">
+                                            <div class="trip_img">
+                                                <img src="img/trip/6_Fukuoka.jpg" alt="후쿠오카">
+                                                <div class="m_trip_t">
+                                                    <p>인천</p>
+                                                    <p>후쿠오카</p>
+                                                </div>
+                                                <div class="m_trip_m">
+                                                    <span>편도총액</span>
+                                                </div>
+                                                <div class="m_trip_b">
+                                                    <span>KRW</span>
+                                                    <span>126,200~</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#">
+                                            <div class="trip_img">
+                                                <img src="img/trip/7_Busan.jpg" alt="부산">
+                                                <div class="m_trip_t">
+                                                    <p>김포</p>
+                                                    <p>부산</p>
+                                                </div>
+                                                <div class="m_trip_m">
+                                                    <span>편도총액</span>
+                                                </div>
+                                                <div class="m_trip_b">
+                                                    <span>KRW</span>
+                                                    <span>31,300~</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -435,8 +656,8 @@
                 </ul>
             </div>
         </section>
-        <div class="j_service_wrap">
-            <section class="j_service">
+        <section class="j_service_wrap">
+            <div class="j_service">
                 <h2>제휴서비스</h2>
                 <div class="j_service_top">
                     <ul>
@@ -496,13 +717,14 @@
                                         <a href="#"><img src="img/j_service/j_service5.jpg" alt="">
                                             <h3>여행 액티비티</h3>
                                             <p>심카드부터 교통패스, 테마파크, 공연, 맛집 할인까지!
+
                                             </p>
                                         </a>
                                     </div>
                                     <div class="j_service_img">
                                         <a href="#"><img src="img/j_service/j_service6.jpg" alt="">
                                             <h3>호텔</h3>
-                                            <p>호텔 가격 한번에 검색하고<br>
+                                            <p>호텔 가격 한번에 검색하고
                                                 최저가보장으로 예약하세요!
                                             </p>
                                         </a>
@@ -530,14 +752,15 @@
                                     <div class="j_service_img">
                                         <a href="#"><img src="img/j_service/j_service9.jpg" alt="">
                                             <h3>렌터카</h3>
-                                            <p>160개국 900개 업체를 한눈에! 최저가 보장으로 예약하자!
+                                            <p>160개국 900개 업체를 한눈에! 최저가 보장으로<br> 예약하자!
                                             </p>
                                         </a>
                                     </div>
                                     <div class="j_service_img">
                                         <a href="#"><img src="img/j_service/j_service10.jpg" alt="">
                                             <h3>Booking.com</h3>
-                                            <p>티웨이 모든 취항지의 숙소 예약 최저가로 진행하세요!
+                                            <p>티웨이 모든 취항지의 숙소 예약 최저가로 <br>
+                                                진행하세요!
                                             </p>
                                         </a>
                                     </div>
@@ -547,51 +770,81 @@
                         </div>
                     </div>
                 </div>
-            </section>
-        </div>
+            </div>
+        </section>
         <section class="event">
             <h2>이벤트</h2>
             <div class="event_wrap">
                 <div class="swiper mySwiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide event_img">
-                            <a href="#">
-                                <img src="img/event/event1.jpg" alt="">
+                            <a href="#" class="pc_event">
+                                <img src="img/event/event1.jpg" alt="이벤트1">
                             </a>
+                            <div class="event_img_wrap">
+                                <a href="#">
+                                    <img src="img/event/event1.jpg" alt="이벤트1">
+                                    <p>일본여행특가</p>
+                                    <span>5%할인코드 + 2만원 중복할인까지!</span>
+                                </a>
+                            </div>
+
                             <a href="#">
-                                <img src="img/event/event2.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="swiper-slide event_img">
-                            <a href="#">
-                                <img src="img/event/event3.jpg" alt="">
-                            </a>
-                            <a href="#">
-                                <img src="img/event/event4.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="swiper-slide event_img">
-                            <a href="#">
-                                <img src="img/event/event5.png" alt="">
-                            </a>
-                            <a href="#">
-                                <img src="img/event/event6.jpg" alt="">
+                                <img src="img/event/event2.jpg" alt="이벤트2">
                             </a>
                         </div>
                         <div class="swiper-slide event_img">
-                            <a href="#">
-                                <img src="img/event/event7.jpg" alt="">
+                            <a href="#" class="pc_event">
+                                <img src="img/event/event3.jpg" alt="이벤트3">
                             </a>
+                            <div class="event_img_wrap">
+                                <a href="#">
+                                    <img src="img/event/event3.jpg" alt="이벤트3">
+                                    <p>10월 이달의 혜택</p>
+                                    <span>농협카드 결제시 최대 2만원 즉시할인!</span>
+                                </a>
+                            </div>
                             <a href="#">
-                                <img src="img/event/event8.jpg" alt="">
+                                <img src="img/event/event4.jpg" alt="이벤트4">
                             </a>
                         </div>
                         <div class="swiper-slide event_img">
+                            <a href="#" class="pc_event"><img src="img/event/event5.png" alt="이벤트5"></a>
+                            <div class="event_img_wrap">
+                                <a href="#">
+                                    <img src="img/event/event5.png" alt="이벤트5">
+                                    <p>카카오페이 최대 3만원 할인</p>
+                                    <span>전 노선 할인 혜택 놓치지마세요!</span>
+                                </a>
+                            </div>
                             <a href="#">
-                                <img src="img/event/event9.jpg" alt="">
+                                <img src="img/event/event6.jpg" alt="이벤트6">
                             </a>
+                        </div>
+                        <div class="swiper-slide event_img">
+                            <a href="#" class="pc_event"><img src="img/event/event7.jpg" alt="이벤트7"></a>
+                            <div class="event_img_wrap">
+                                <a href="#">
+                                    <img src="img/event/event7.jpg" alt="이벤트7">
+                                    <p>이원의료재단 PCR 검사 할인</p>
+                                    <span>티웨이항공 고객 전용 혜택</span>
+                                </a>
+                            </div>
                             <a href="#">
-                                <img src="img/event/event10.jpg" alt="">
+                                <img src="img/event/event8.jpg" alt="이벤트8">
+                            </a>
+                        </div>
+                        <div class="swiper-slide event_img">
+                            <a href="#" class="pc_event"><img src="img/event/event9.jpg" alt="이벤트9"></a>
+                            <div class="event_img_wrap">
+                                <a href="#">
+                                    <img src="img/event/event9.jpg" alt="이벤트9">
+                                    <p>t'pet season 3</p>
+                                    <span>댕냥이 친구들을 위한 반려동물 동반 여행 혜택</span>
+                                </a>
+                            </div>
+                            <a href="#">
+                                <img src="img/event/event10.jpg" alt="이벤트10">
                             </a>
                         </div>
                     </div>
@@ -604,7 +857,8 @@
         </section>
         <section class="notice">
             <a href="#">
-                <img src="img/notice/covid19.png" alt="">
+                <img src="img/notice/covid19.png" alt="" class="pc_notice">
+                <img src="img/bnr_covid19.png" alt="" class="m_notice">
             </a>
             <div class="notice_wrap">
                 <div class="notice_text">
@@ -620,10 +874,17 @@
                                     <span>2022-10-07</span>
                                 </a>
                             </li>
-                            <li>
+                            <li class="pc_notice">
                                 <a href="#">
                                     <span><img src="img/icon/ico_notice02.png" alt=""></span>
                                     <span>미국행 탑승객 연락처 입력 권고사항 안내</span>
+                                    <span>2022-09-06</span>
+                                </a>
+                            </li>
+                            <li class="m_notice">
+                                <a href="#">
+                                    <span><img src="img/icon/ico_news.png" alt=""></span>
+                                    <span>[공지]미국행 탑승객 연락처 입력 권고사항 안내</span>
                                     <span>2022-09-06</span>
                                 </a>
                             </li>
@@ -645,6 +906,21 @@
                         <li><a href="#"><img src="img/notice/sns_ytb.png" alt="유튜브"></a></li>
                     </ul>
                 </div>
+            </div>
+        </section>
+        <section class="m_a_service">
+            <h2>부가·제휴서비스</h2>
+            <div class="m_a_service_top">
+                <ul>
+                    <li><a href="#">부가서비스번들</a></li>
+                    <li><a href="#">호텔</a></li>
+                    <li><a href="#">쇼핑 편의</a></li>
+                    <li><a href="#">사전 좌석선택</a></li>
+                    <li><a href="#">사전 기내식주문</a></li>
+                    <li><a href="#">액티비티</a></li>
+                    <li><a href="#">면세품 &t'shop</a></li>
+                    <li><a href="#">원클릭여행보험</a></li>
+                </ul>
             </div>
         </section>
     </main>
@@ -733,6 +1009,43 @@
             </div>
         </div>
     </footer>
+    <div class="m_footer">
+        <div class="m_logo">
+            <a href="#"><img src="img/logo_footer.png" alt="하단로고"></a>
+        </div>
+        <div class="m_copy">
+            <p>ⓒ 2019 t’way Air. All Rights Reserved.</p>
+        </div>
+        <div class="m_arr">
+            <span><img src="img/icon/arr_txt_sel.png" alt="" class="arr"></span>
+        </div>
+        <div class="m_footer_bot">
+            <div class="m_rule">
+                <span>항공교통 이용자서비스 계획</span>
+                <span>피해구제계획</span>
+                <span>홈페이지 이용약관</span>
+                <span>여객운송약관</span>
+                <span>개인정보 처리방침</span>
+                <span>위치정보 이용약관</span>
+            </div>
+            <div class="m_company">
+                <p><span>사업자등록번호</span><span>101-81-94800</span></p>
+                <p><span>통신판매업신고번호</span> <span>2017-서울강서-1292</span></p>
+                <p><span>주소</span><span>서울시 강서구 하늘길 210 국제화물청사 3층</span></p>
+                <p><span>대표이사</span><span>정홍근</span> <span>개인정보 관리책임자</span><span>김형이</span></p>
+            </div>
+            <div class="m_tel">
+                <a href="tel:+1688-8686">
+                    <p>예약센터</p>
+                    1688-8686
+                </a>
+                <a href="#">
+                    <p>업무시간</p>
+                    07:00 ~ 19:00
+                </a>
+            </div>
+        </div>
+    </div>
     <script>
         /* swiper */
         var swiper = new Swiper(".mySwiper", {

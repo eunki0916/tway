@@ -1,10 +1,17 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'twayair';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_tway@1.0/twayair.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 header {
     position: fixed;
     width: 100%;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-    z-index: 200;
+    z-index: 350;
     transition: all 0.5s;
 }
 
@@ -273,15 +280,18 @@ footer {
 .footer_mid>div>ul {
     display: flex;
     flex-wrap: wrap;
-    font-size: 14px;
-    gap: 10px;
+    font-size: 13px;
+    gap: 5px;
     margin: 30px 0;
 }
 
 .footer_mid_company li,
-.footer_mid_custom li,
 .footer_mid_rule li {
     width: calc(100% / 2 - 10px);
+}
+
+.footer_mid_custom li {
+    width: calc(100% / 2 - 40px);
 }
 
 .footer_mid_rule li:nth-child(4) a {
@@ -304,7 +314,7 @@ footer {
 }
 
 .address {
-    font-size: 14px;
+    font-size: 13px;
     line-height: 2;
 }
 
@@ -333,4 +343,8 @@ footer {
     width: 100px;
     height: 70px;
 
+}
+
+.m_footer {
+    display: none;
 }

@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/sub.css">
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script defer src="js/sub.js"></script>
+</head>
+
+<body>
+    <header id="top" class="top_scroll">
+        <img src="img/bg_header.png" alt="헤더" class="header_bg_scroll">
+        <div class="header_wrap">
+            <div class="logo">
+                <h1><a href="index.html">
+                        <img src="img/top_logo2.png" alt="티웨이" class="logo_img">
+                    </a></h1>
+            </div>
+            <div class="gnb_wrap">
+                <ul class="gnb header_wrap_scroll" style="color: #000;">
+                    <li>
+                        <a href="#" class="">항공권 예매</a>
+                        <div class="sub_reserve">
+                            <ul>
+                                <li><a href="">항공권 예매</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="">이벤트/프로모션</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="">운임 및 수수료 안내</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">나의 예약</a>
+                        <div class="sub_my">
+                            <ul>
+                                <li><a href="#">예약 조회</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#">온라인 체크인</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#">부가서비스 추가 구매</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">서비스 안내</a>
+                        <div class="sub_service">
+                            <ul>
+                                <li><a href="#">여행 준비</a>
+                                <li><a href="#">항공권 예매 안내</a></li>
+                                <li><a href="#">단체 항공권 예매 안내</a></li>
+                                <li><a href="#">가족 동반 여행</a></li>
+                                <li><a href="#">도움이 필요한 고객</a></li>
+                                <li><a href="#">혼자 여행하는 어린이</a></li>
+                                <li><a href="#">t’pet(반려동물 동반 여행)</a></li>
+                                <li><a href="#">티웨이페이</a></li>
+                                <li><a href="#">항공기 정보</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#">항공편 및 공항 정보</a>
+                                <li><a href="#">운항스케줄 조회</a></li>
+                                <li><a href="#">출/도착 조회</a></li>
+                                <li><a href="#">셀프 체크인 안내</a></li>
+                                <li><a href="#">온라인 체크인 안내</a></li>
+                                <li><a href="#">탑승 수속 안내</a></li>
+                                <li><a href="#">공항 카운터 정보</a></li>
+                                <li><a href="#">t’way 라운지</a></li>
+                                <li><a href="#">코로나 19 종합 안내</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#">부가서비스</a>
+                                <li><a href="#">부가서비스 번들 구매</a></li>
+                                <li><a href="#">사전좌석 구매</a></li>
+                                <li><a href="#">수하물 추가 구매</a></li>
+                                <li><a href="#">기내식 사전 주문</a></li>
+                                <li><a href="#">결제시한연장 서비스</a></li>
+                                <li><a href="#">옆좌석 구매</a></li>
+                                <li><a href="#">t'carrier(펫 운송용기)/포장용 비닐 구매</a></li>
+                                <li><a href="#">t’care 서비스</a></li>
+                                <li><a href="#">원클릭 여행자보험</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#">수하물 안내</a>
+                                <li><a href="#">무료 수하물</a></li>
+                                <li><a href="#">초과 수하물</a></li>
+                                <li><a href="#">특수 수하물</a></li>
+                                <li><a href="#">운송 제한 물품</a></li>
+                                <li><a href="#">수하물 배상</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#">기내 서비스</a>
+                                <li><a href="#">기내 제공 서비스</a></li>
+                                <li><a href="#">t’shop</a></li>
+                                <li><a href="#">기내 면세품 예약 및 구매 안내</a></li>
+                                <li><a href="#">channel t’</a></li>
+                                <li><a href="#">기내 이벤트</a></li>
+                            </ul>
+                            <ul></ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">온라인면세점</a>
+                        <div class="sub_store">
+                            <ul>
+                                <li><a href="#">카테고리</a></li>
+                                <li><a href="#">주류</a></li>
+                                <li><a href="#">화장품 & 향수</a></li>
+                                <li><a href="#">쥬얼리 & 선물용품</a></li>
+                                <li><a href="#">건강제품류</a></li>
+                            </ul>
+                            <ul>
+                                <li> <a href="#">나의 주문</a></li>
+                                <li><a href="#">주문 조회</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#">이벤트</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#">공지사항</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#">이용안내</a></li>
+                                <li><a href="#">FAQ</a></li>
+                            </ul>
+                            <ul></ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">이벤트</a>
+                        <div class="sub_event">
+                            <ul>
+                                <li><a href="#">이벤트/프로모션</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#">쿠폰</a></li>
+                                <li><a href="#">쿠폰 안내</a></li>
+                                <li><a href="#">쿠폰북</a></li>
+                            </ul>
+                            <ul></ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="sub.html">제휴</a>
+                        <div class="sub_coo">
+                            <ul>
+                                <li><a href="sub.html">호텔</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="sub2.html">렌터카</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="sub3.html">금융 및 여행자보험</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="sub4.html">쇼핑 및 편의</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="sub5.html">액티비티</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="sub6.html">OTT & WIFI</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="sub_menu">
+                <div class="lang header_wrap_scroll">
+                    <ul>
+                        <li><a href="#">한국</a></li>
+                        <li><a href="#">한국어</a></li>
+                    </ul>
+                </div>
+                <div class="login">
+                    <ul>
+                        <li><a href="#"><img src="img/icon/ico_top_login.png" alt="로그인" class="login_login"></a></li>
+                        <li><a href="#"><img src="img/icon/ico_top_search.png" alt="검색" class="login_search"></a></li>
+                        <li><a href="#"><img src="img/icon/ico_top_allmenu.png" alt="전체메뉴" class="login_menu"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="dark"></div>
+    <div class="all_menu_wrap">
+        <h2 class="pc_all_menu">전체메뉴</h2>
+        <div class="all_menu m_all_menu_top">
+            <div class="pc_all_menu">
+                <ul class="all_menu_top">
+                    <li><a href="#all_menu_reserve">항공권 예매</a></li>
+                    <li><a href="#all_menu_my">나의 예약</a></li>
+                    <li><a href="#all_menu_service">서비스 안내</a></li>
+                    <li><a href="#all_menu_store">온라인 면세점</a></li>
+                    <li><a href="#all_menu_event">이벤트</a></li>
+                    <li><a href="#all_menu_coo">제휴</a></li>
+                </ul>
+            </div>
+            <div class="m_all_top">
+                <div class="m_all_menu">
+                    <div class="m_menu_top">
+                        <a href="#">한국어 - 한국어</a>
+                    </div>
+                    <div class="m_menu_mid">
+                        <p>로그인 하시고 <br> 다양한 서비스를 이용하세요.</p>
+                        <a href="#">로그인</a>
+                    </div>
+                    <div class="m_menu_bot">
+                        <form action="">
+                            <input type="text" placeholder="검색어를 입력하세요">
+                            <button type="reset">X</button>
+                            <a href="#"><img src="img/icon/ico_top_search.png" alt=""></a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="all_menu">
+            <div class="reserve_wrap">
+                <h3 id="all_menu_reserve" class="menu_h3">항공권 예매</h4>
+                    <ul class="all_menu_reserve">
+                        <li><a href="#">항공권 예매</a></li>
+                        <li><a href="#">이벤트/프로모션</a></li>
+                        <li><a href="#">운임 및 수수료 안내</a></li>
+                        <li></li>
+                    </ul>
+            </div>
+        </div>
+        <div class="all_menu">
+            <div>
+                <h3 id="all_menu_my">나의 예약</h4>
+                    <ul class="all_menu_my">
+                        <li><a href="#">예약 조회</a></li>
+                        <li><a href="#">온라인 체크인</a></li>
+                        <li><a href="#">부가서비스 추가 구매</a></li>
+                        <li></li>
+                    </ul>
+            </div>
+        </div>
+        <div class="all_menu">
+            <div>
+                <h3 id="all_menu_service">서비스 안내</h4>
+                    <ul class="all_menu_service">
+                        <li class="menu_li">
+                            <a href="#" class="menu_click">여행 준비</a>
+                            <ul class="service_trip">
+                                <li><a href="#">항공권 예매 안내</a></li>
+                                <li><a href="#">단체 항공권 예매 안내</a></li>
+                                <li><a href="#">가족 동반 여행</a></li>
+                                <li><a href="#">도움이 필요한 고객</a></li>
+                                <li><a href="#">혼자 여행하는 어린이</a></li>
+                                <li><a href="#">t’pet(반려동물 동반 여행)</a></li>
+                                <li><a href="#">티웨이페이</a></li>
+                                <li><a href="#">항공기 정보</a></li>
+                            </ul>
+                            <img src="img/icon/ico_select.png" alt="" class="service_trip_arr menu_arr">
+                        </li>
+                        <li class="menu_li">
+                            <a href="#" class="menu_click">항공편 및 공항 정보</a>
+                            <ul class="service_air">
+                                <li><a href="#">운항스케줄 조회</a></li>
+                                <li><a href="#">출/도착 조회</a></li>
+                                <li><a href="#">셀프 체크인 안내</a></li>
+                                <li><a href="#">온라인 체크인 안내</a></li>
+                                <li><a href="#">탑승 수속 안내</a></li>
+                                <li><a href="#">공항 카운터 정보</a></li>
+                                <li><a href="#">t’way 라운지</a></li>
+                                <li><a href="#">코로나 19 종합 안내</a></li>
+                            </ul>
+                            <img src="img/icon/ico_select.png" alt="" class="service_air_arr menu_arr">
+                        </li>
+                        <li class="menu_li">
+                            <a href="#" class="menu_click">부가서비스</a>
+                            <ul class="service_plus">
+                                <li><a href="#">부가서비스 번들 구매</a></li>
+                                <li><a href="#">사전좌석 구매</a></li>
+                                <li><a href="#">수하물 추가 구매</a></li>
+                                <li><a href="#">기내식 사전 주문</a></li>
+                                <li><a href="#">결제시한연장 서비스</a></li>
+                                <li><a href="#">옆좌석 구매</a></li>
+                                <li><a href="#">t'carrier(펫 운송용기)/포장용 비닐 구매</a></li>
+                                <li><a href="#">t’care 서비스</a></li>
+                                <li><a href="#">원클릭 여행자보험</a></li>
+                            </ul>
+                            <img src="img/icon/ico_select.png" alt="" class="service_plus_arr menu_arr">
+                        </li>
+                        <li class="menu_li">
+                            <a href="#" class="menu_click">수하물 안내</a>
+                            <ul class="service_jim">
+                                <li><a href="#">무료 수하물</a></li>
+                                <li><a href="#">초과 수하물</a></li>
+                                <li><a href="#">특수 수하물</a></li>
+                                <li><a href="#">운송 제한 물품</a></li>
+                                <li><a href="#">수하물 배상</a></li>
+                            </ul>
+                            <img src="img/icon/ico_select.png" alt="" class="service_jim_arr menu_arr">
+                        </li>
+                    </ul>
+                    <ul class="all_menu_service">
+                        <li class="menu_li">
+                            <a href="#" class="menu_click">기내 서비스</a>
+                            <ul class="service_in">
+                                <li><a href="#">기내 제공 서비스</a></li>
+                                <li><a href="#">t’shop</a></li>
+                                <li><a href="#">기내 면세품 예약 및 구매 안내</a></li>
+                                <li><a href="#">channel t’</a></li>
+                                <li><a href="#">기내 이벤트</a></li>
+                            </ul>
+                            <img src="img/icon/ico_select.png" alt="" class="service_in_arr menu_arr">
+                        </li>
+                    </ul>
+            </div>
+        </div>
+        <div class="all_menu">
+            <div>
+                <h3 id="all_menu_store">온라인면세점</h4>
+                    <ul class="all_menu_store">
+                        <li class="menu_li">
+                            <a href="#" class="menu_click">카테고리</a>
+                            <ul class="store_category">
+                                <li><a href="#">주류</a></li>
+                                <li><a href="#">화장품 & 향수</a></li>
+                                <li><a href="#">쥬얼리 & 선물용품</a></li>
+                                <li><a href="#">건강제품류</a></li>
+                            </ul>
+                            <img src="img/icon/ico_select.png" alt="" class="store_category_arr menu_arr">
+                        </li>
+                        <li class="menu_li">
+                            <a href="#" class="menu_click">나의 주문</a>
+                            <ul class="store_order">
+                                <li><a href="#">주문 조회</a></li>
+                            </ul>
+                            <img src="img/icon/ico_select.png" alt="" class="store_order_arr menu_arr">
+                        </li>
+                        <li><a href="#">이벤트</a></li>
+                        <li><a href="#">공지사항</a></li>
+
+                    </ul>
+                    <ul class="all_menu_store">
+                        <li class="menu_li">
+                            <a href="#" class="menu_click">이용안내</a>
+                            <ul class="store_faq">
+                                <li><a href="#">FAQ</a></li>
+                            </ul>
+                            <img src="img/icon/ico_select.png" alt="" class="store_faq_arr menu_arr">
+                        </li>
+                    </ul>
+            </div>
+        </div>
+        <div class="all_menu">
+            <div>
+                <h3 id="all_menu_event">이벤트</h4>
+                    <ul class="all_menu_event">
+                        <li><a href="#">이벤트/프로모션</a></li>
+                        <li class="menu_li">
+                            <a href="#" class="menu_click">쿠폰</a>
+                            <ul class="event_coupon">
+                                <li><a href="#">쿠폰 안내</a></li>
+                                <li><a href="#">쿠폰북</a></li>
+                            </ul>
+                            <img src="img/icon/ico_select.png" alt="" class="event_coupon_arr menu_arr">
+                        </li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+            </div>
+        </div>
+        <div class="all_menu">
+            <div>
+                <h3 id="all_menu_coo">제휴</h4>
+                    <ul class="all_menu_my">
+                        <li><a href="sub.html">호텔</a></li>
+                        <li><a href="sub2.html">렌터카</a></li>
+                        <li><a href="sub3.html">금융 및 여행자보험</a></li>
+                        <li><a href="sub4.html">쇼핑 및 편의</a></li>
+                    </ul>
+                    <ul class="all_menu_my">
+                        <li><a href="sub5.html">액티비티</a></li>
+                        <li><a href="sub6.html">OTT & WIFI</a></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+            </div>
+        </div>
+    </div>
+    <span class="menu_close"><img src="img/icon/btn_layer_close.png" alt="닫기"></span>
+    <main>
+        <div class="main_header_wrap">
+            <div class="main_header">
+                <a href="#" class="header_a"><img src="img/sub/ico_header_start.png" alt="출발"><input type="text" name=""
+                        id="" placeholder="출발지"><img src="img/sub/ico_btn_pin.png" alt="핀"></a>
+                <a href="#" class="header_a"><img src="img/sub/ico_header_end.png" alt="도착"><input type="text" name=""
+                        id="" placeholder="도착지"><img src="img/sub/ico_btn_pin.png" alt="핀"></a>
+                <a href="#" class="header_a"><input type="text" name="" id="" placeholder="YYYY-MM-DD ~ YYYY-MM-DD"><img
+                        src="img/sub/ico_btn_date.png" alt="달력"></a>
+                <a href="#" class="header_a"><input type="text" name="" id="" placeholder="성인 1, 소아 0, 유아 0"><img
+                        src="img/sub/ico_booking_passenger.png" alt="승객"></a>
+                <a href="#" class="header_button">조회</a>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content_header">
+                <a href="#"><img src="img/sub/ico_path_home.png" alt="홈">HOME</a>
+                <a href="#">제휴<img src="img/sub/ico_path_off.png" alt="아래버튼"></a>
+                <a href="#">OTT & WIFI<img src="img/sub/ico_path_off.png" alt="아래버튼"></a>
+            </div>
+            <h2>OTT & WIFI</h2>
+            <div class="content_top">
+                <h3>OTT 서비스와 와이파이</h3>
+                <p>해외 여행에 필요한 각종 IT 서비스를 확인해보세요</p>
+            </div>
+
+            <div class="sub5_content_mid2">
+                <div class="sub5_content_mid_left">
+                    <img src="img/sub/watcha.jpg" alt="왓챠">
+                </div>
+                <div class="content_mid_right">
+                    <h3>왓챠</h3>
+                    <p>티웨이 탑승객 월 선착순 8만명에게 왓챠 10일 무료 쿠폰 증정!</p>
+                    <a href="#">왓챠 바로가기</a>
+                </div>
+            </div>
+            <div class="content_bottom">
+                <div class="bot_inner">
+                    <div class="sub6_bot_img"><img src="img/sub/wifi.jpg" alt="와이파이도시락"></div>
+                    <div class="bot_text">
+                        <h4>와이파이 도시락 & 유심</h4>
+                        <p>해외여행 필수품 챙기기 <br>
+                            와이파이 도시락 15% 할인!</p>
+                    </div>
+                    <div class="bot_link">
+                        <a href="#">와이파이도시락 & 유심 바로가기</a>
+                    </div>
+                </div>
+                <div class="bot_inner">
+
+                </div>
+                <div class="bot_inner">
+
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer_top">
+            <div class="footer_top_left">
+                <span>티웨이항공 예약센터</span>
+                <span>1688-8686</span>
+                <span>07:00 ~ 19:00</span>
+            </div>
+            <div class="footer_top_right">
+                <select name="" id="">
+                    Family Site
+                    <option value="">항공훈련센터</option>
+                    <option value="">예림당</option>
+                    <option value="">예림교육</option>
+                    <option value="">스마트베어</option>
+                    <option value="">와이슈타인</option>
+                    <option value="">예림디지털</option>
+                    <option value="">티웨이홀딩스</option>
+                    <option value="">해여림빌리지</option>
+                </select>
+            </div>
+        </div>
+        <div class="footer_mid_wrap">
+            <div class="footer_mid">
+                <div class="footer_mid_company">
+                    <a href="#"><strong>회사 소개</strong></a>
+                    <ul>
+                        <li><a href="">티웨이항공 소개</a></li>
+                        <li><a href="">투자정보</a></li>
+                        <li><a href="">채용안내</a></li>
+                        <li><a href="">윤리경영</a></li>
+                        <li><a href="">광고 홍보 영상</a></li>
+                        <li><a href="">사회 공헌</a></li>
+                        <li><a href="">보도자료</a></li>
+                        <li><a href="">항공훈련센터</a></li>
+                    </ul>
+                </div>
+                <div class="footer_mid_custom">
+                    <a href="#"><strong>고객센터</strong></a>
+                    <ul>
+                        <li><a href="">공지사항</a></li>
+                        <li><a href="">유실물센터</a></li>
+                        <li><a href="">고객의 말씀</a></li>
+                        <li><a href="">제휴문의</a></li>
+                        <li><a href="">FAQ</a></li>
+                        <li><a href="">서식자료실</a></li>
+                    </ul>
+                </div>
+                <div class="footer_mid_rule">
+                    <a href="#"><strong>규정 및 약관</strong></a>
+                    <ul>
+                        <li><a href="">여객운송약관</a></li>
+                        <li><a href="">운임 및 수수료</a></li>
+                        <li><a href="">홈페이지 이용약관</a></li>
+                        <li><a href="">개인정보 처리방침</a></li>
+                        <li><a href="">기타 고지사항</a></li>
+                    </ul>
+                </div>
+                <div class="footer_mid_etc">
+                    <a href="#"><strong>기타</strong></a>
+                    <ul>
+                        <li><a href="">항공교통 이용자서비스 계획</a></li>
+                        <li><a href="">피해구제계획</a></li>
+                        <li><a href="">t’agency</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer_bottom">
+            <div class="footer_logo">
+                <a href="#"><img src="img/f_logo.png" alt="로고"></a>
+            </div>
+            <div class="address">
+                <span>대표이사. 정홍근</span>
+                <span>사업자등록번호. 101-81-94800</span>
+                <span>주소. 서울시 강서구 하늘길 210 국제화물청사 3층</span><br>
+                <span>통신판매업신고번호. 2017-서울강서-1292</span>
+                <span>개인정보 관리책임자. 경영본부장 김형이</span><br>
+                <span>Copyright ⓒ 2019 t’way Air. All Rights Reserved.</span>
+            </div>
+            <div class="mark">
+                <a href="#"><img src="img/ISMS.png" alt="로고"></a>
+                <a href="#"><img src="img/WA.png" alt="로고"></a>
+            </div>
+        </div>
+    </footer>
+    <div class="m_footer">
+        <div class="m_logo">
+            <a href="#"><img src="img/logo_footer.png" alt="하단로고"></a>
+        </div>
+        <div class="m_copy">
+            <p>ⓒ 2019 t’way Air. All Rights Reserved.</p>
+        </div>
+        <div class="m_arr">
+            <span><img src="img/icon/arr_txt_sel.png" alt="" class="arr"></span>
+        </div>
+        <div class="m_footer_bot">
+            <div class="m_rule">
+                <span>항공교통 이용자서비스 계획</span>
+                <span>피해구제계획</span>
+                <span>홈페이지 이용약관</span>
+                <span>여객운송약관</span>
+                <span>개인정보 처리방침</span>
+                <span>위치정보 이용약관</span>
+            </div>
+            <div class="m_company">
+                <p><span>사업자등록번호</span><span>101-81-94800</span></p>
+                <p><span>통신판매업신고번호</span> <span>2017-서울강서-1292</span></p>
+                <p><span>주소</span><span>서울시 강서구 하늘길 210 국제화물청사 3층</span></p>
+                <p><span>대표이사</span><span>정홍근</span> <span>개인정보 관리책임자</span><span>김형이</span></p>
+            </div>
+            <div class="m_tel">
+                <a href="tel:+1688-8686">
+                    <p>예약센터</p>
+                    1688-8686
+                </a>
+                <a href="#">
+                    <p>업무시간</p>
+                    07:00 ~ 19:00
+                </a>
+            </div>
+        </div>
+    </div>
+    <script>
+        /* swiper */
+        var swiper = new Swiper(".mySwiper", {
+            rewind: true,
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: {
+                delay: 5000,
+                disableOnInteraction: false
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+                type: "fraction"
+
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev"
+            }
+        });
+    </script>
+</body>
+
+</html>
