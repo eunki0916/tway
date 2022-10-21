@@ -7,7 +7,7 @@
     height: 100px;
     background: rgb(247, 247, 247);
     opacity: 0.2;
-    z-index: 300;
+    z-index: 350;
     top: 0;
 }
 
@@ -16,7 +16,7 @@
     position: fixed;
     top: 50px;
     right: 10%;
-    z-index: 300;
+    z-index: 350;
     cursor: pointer;
 }
 
@@ -27,7 +27,7 @@
 .all_menu_wrap {
     display: none;
     position: fixed;
-    top: 101px;
+    top: 92px;
     left: 0;
     right: 0;
     height: 100%;
@@ -202,12 +202,16 @@
 }
 
 .left_top p {
-    padding: 5px 0;
+    padding: 15px 8px;
+    font-weight: bold;
 }
 
 .left_top>div p {
     display: inline-block;
-    margin: 0 20px 0 0;
+    margin: 0 80px 0 0;
+    border: 2px solid #d22c26;
+    padding: 5px 70px 40px 5px;
+    border-radius: 10px;
 }
 
 .reserve_bottom_left {
@@ -272,6 +276,7 @@
 .reserve_p {
     display: flex;
     flex-direction: column;
+    
 }
 
 .reserve_p a {
@@ -279,6 +284,14 @@
     margin: 10px 15px;
     background: #eee;
     border-radius: 10px;
+    position: relative;
+}
+.reserve_p img {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 10px;
+    right: 15px;
 }
 
 .reserve_button button {
